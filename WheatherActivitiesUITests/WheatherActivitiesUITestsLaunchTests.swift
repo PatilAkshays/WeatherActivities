@@ -1,13 +1,13 @@
 //
-//  WheatherActivitiesUITestsLaunchTests.swift
-//  WheatherActivitiesUITests
+//  WeatherActivitiesUITestsLaunchTests.swift
+//  WeatherActivitiesUITests
 //
 //  Created by Akshay Patil on 06/10/26.
 //
 
 import XCTest
 
-final class WheatherActivitiesUITestsLaunchTests: XCTestCase {
+final class WeatherActivitiesUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

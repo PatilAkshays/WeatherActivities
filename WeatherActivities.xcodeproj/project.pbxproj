@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		479ABB1E307509320091D630 /* WheatherActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WheatherActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		479ABB2B307509330091D630 /* WheatherActivitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherActivitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		479ABB35307509330091D630 /* WheatherActivitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WheatherActivitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479ABB1E307509320091D630 /* WeatherActivities.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeatherActivities.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		479ABB2B307509330091D630 /* WeatherActivitiesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherActivitiesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		479ABB35307509330091D630 /* WeatherActivitiesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeatherActivitiesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		479ABB20307509320091D630 /* WheatherActivities */ = {
+		479ABB20307509320091D630 /* WeatherActivities */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = WheatherActivities;
+			path = WeatherActivities;
 			sourceTree = "<group>";
 		};
 		479ABB2E307509330091D630 /* WheatherActivitiesTests */ = {
@@ -75,7 +75,7 @@
 		479ABB15307509320091D630 = {
 			isa = PBXGroup;
 			children = (
-				479ABB20307509320091D630 /* WheatherActivities */,
+				479ABB20307509320091D630 /* WeatherActivities */,
 				479ABB2E307509330091D630 /* WheatherActivitiesTests */,
 				479ABB38307509330091D630 /* WheatherActivitiesUITests */,
 				479ABB1F307509320091D630 /* Products */,
@@ -85,9 +85,9 @@
 		479ABB1F307509320091D630 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				479ABB1E307509320091D630 /* WheatherActivities.app */,
-				479ABB2B307509330091D630 /* WheatherActivitiesTests.xctest */,
-				479ABB35307509330091D630 /* WheatherActivitiesUITests.xctest */,
+				479ABB1E307509320091D630 /* WeatherActivities.app */,
+				479ABB2B307509330091D630 /* WeatherActivitiesTests.xctest */,
+				479ABB35307509330091D630 /* WeatherActivitiesUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		479ABB1D307509320091D630 /* WheatherActivities */ = {
+		479ABB1D307509320091D630 /* WeatherActivities */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 479ABB3F307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivities" */;
+			buildConfigurationList = 479ABB3F307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivities" */;
 			buildPhases = (
 				479ABB1A307509320091D630 /* Sources */,
 				479ABB1B307509320091D630 /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				479ABB20307509320091D630 /* WheatherActivities */,
+				479ABB20307509320091D630 /* WeatherActivities */,
 			);
-			name = WheatherActivities;
+			name = WeatherActivities;
 			packageProductDependencies = (
 			);
 			productName = WheatherActivities;
-			productReference = 479ABB1E307509320091D630 /* WheatherActivities.app */;
+			productReference = 479ABB1E307509320091D630 /* WeatherActivities.app */;
 			productType = "com.apple.product-type.application";
 		};
-		479ABB2A307509330091D630 /* WheatherActivitiesTests */ = {
+		479ABB2A307509330091D630 /* WeatherActivitiesTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 479ABB42307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivitiesTests" */;
+			buildConfigurationList = 479ABB42307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivitiesTests" */;
 			buildPhases = (
 				479ABB27307509330091D630 /* Sources */,
 				479ABB28307509330091D630 /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				479ABB2E307509330091D630 /* WheatherActivitiesTests */,
 			);
-			name = WheatherActivitiesTests;
+			name = WeatherActivitiesTests;
 			packageProductDependencies = (
 			);
 			productName = WheatherActivitiesTests;
-			productReference = 479ABB2B307509330091D630 /* WheatherActivitiesTests.xctest */;
+			productReference = 479ABB2B307509330091D630 /* WeatherActivitiesTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		479ABB34307509330091D630 /* WheatherActivitiesUITests */ = {
+		479ABB34307509330091D630 /* WeatherActivitiesUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 479ABB45307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivitiesUITests" */;
+			buildConfigurationList = 479ABB45307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivitiesUITests" */;
 			buildPhases = (
 				479ABB31307509330091D630 /* Sources */,
 				479ABB32307509330091D630 /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				479ABB38307509330091D630 /* WheatherActivitiesUITests */,
 			);
-			name = WheatherActivitiesUITests;
+			name = WeatherActivitiesUITests;
 			packageProductDependencies = (
 			);
 			productName = WheatherActivitiesUITests;
-			productReference = 479ABB35307509330091D630 /* WheatherActivitiesUITests.xctest */;
+			productReference = 479ABB35307509330091D630 /* WeatherActivitiesUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 479ABB19307509320091D630 /* Build configuration list for PBXProject "WheatherActivities" */;
+			buildConfigurationList = 479ABB19307509320091D630 /* Build configuration list for PBXProject "WeatherActivities" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -200,9 +200,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				479ABB1D307509320091D630 /* WheatherActivities */,
-				479ABB2A307509330091D630 /* WheatherActivitiesTests */,
-				479ABB34307509330091D630 /* WheatherActivitiesUITests */,
+				479ABB1D307509320091D630 /* WeatherActivities */,
+				479ABB2A307509330091D630 /* WeatherActivitiesTests */,
+				479ABB34307509330091D630 /* WeatherActivitiesUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +258,12 @@
 /* Begin PBXTargetDependency section */
 		479ABB2D307509330091D630 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 479ABB1D307509320091D630 /* WheatherActivities */;
+			target = 479ABB1D307509320091D630 /* WeatherActivities */;
 			targetProxy = 479ABB2C307509330091D630 /* PBXContainerItemProxy */;
 		};
 		479ABB37307509330091D630 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 479ABB1D307509320091D630 /* WheatherActivities */;
+			target = 479ABB1D307509320091D630 /* WeatherActivities */;
 			targetProxy = 479ABB36307509330091D630 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -484,7 +484,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akshay.com.WheatherActivitiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.com.WeatherActivitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -494,7 +494,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherActivities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheatherActivities";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherActivities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherActivities";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Debug;
@@ -510,7 +510,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 26.5;
 				MACOSX_DEPLOYMENT_TARGET = 26.5;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = akshay.com.WheatherActivitiesTests;
+				PRODUCT_BUNDLE_IDENTIFIER = akshay.com.WeatherActivitiesTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				STRING_CATALOG_GENERATE_SYMBOLS = NO;
@@ -520,7 +520,7 @@
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2,7";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WheatherActivities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WheatherActivities";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WeatherActivities.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WeatherActivities";
 				XROS_DEPLOYMENT_TARGET = 26.5;
 			};
 			name = Release;
@@ -578,7 +578,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		479ABB19307509320091D630 /* Build configuration list for PBXProject "WheatherActivities" */ = {
+		479ABB19307509320091D630 /* Build configuration list for PBXProject "WeatherActivities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				479ABB3D307509330091D630 /* Debug */,
@@ -587,7 +587,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		479ABB3F307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivities" */ = {
+		479ABB3F307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivities" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				479ABB40307509330091D630 /* Debug */,
@@ -596,7 +596,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		479ABB42307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivitiesTests" */ = {
+		479ABB42307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivitiesTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				479ABB43307509330091D630 /* Debug */,
@@ -605,7 +605,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		479ABB45307509330091D630 /* Build configuration list for PBXNativeTarget "WheatherActivitiesUITests" */ = {
+		479ABB45307509330091D630 /* Build configuration list for PBXNativeTarget "WeatherActivitiesUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				479ABB46307509330091D630 /* Debug */,
